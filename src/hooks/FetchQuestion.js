@@ -43,8 +43,8 @@ export const useFetchQestion = () => {
 export const MoveNextQuestion = () => async (dispatch) => {
     try {
         dispatch(Action.moveNextAction()); /** increase trace by 1 */
-    } catch (error) {
-        console.log(error)
+    } catch (err) {
+        console.log(err)
     }
 }
 
